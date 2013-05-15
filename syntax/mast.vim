@@ -41,7 +41,7 @@ syn region mastComment start="#" end="$" contains=mastTodo
 syn match mastOperator "[|&=><~*+-/(){}]"
 syn match mastStatement "v("me=e-1
 syn match mastStatement "i("me=e-1
-syn match mastLabel "^.\+:"
+syn match mastLabel "^[^#]\+:"
 
 " TODO
 "=====
